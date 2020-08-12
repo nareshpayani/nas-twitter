@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Css/Feedbar.css"
+import Tweetbox from './Tweetbox'
 
 function Feedbar() {
     return (
@@ -9,6 +10,9 @@ function Feedbar() {
             </div>
 
             {/* Tweets */}
+            <div className="feedbar__Tweet">
+                <Tweetbox/>
+            </div>
            
         </div>
     )
