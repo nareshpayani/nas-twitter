@@ -32,7 +32,7 @@ function Tweetbox() {
                     <Avatar src=""></Avatar>
                     <input  onChange={(e) => setTweetMessage(e.target.value)}
                     value={tweetMessage}
-                    type="text" placeholder="What's happening?"/>
+                    type="text" placeholder="What's happening?" />
                 </div>
 
                 <input className="tweetbox__imageinput" 
