@@ -22,7 +22,7 @@ function Widgets() {
 
             {/* 3rd party API */}
 
-                <TwitterTweetEmbed tweetId={"592920948698812416"} />
+                <TwitterTweetEmbed className="twitterembed" tweetId={"592920948698812416"} />
 
                 <TwitterTimelineEmbed
                 sourceType="profile"
